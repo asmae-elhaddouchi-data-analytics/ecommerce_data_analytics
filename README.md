@@ -67,6 +67,8 @@ Git / GitHub : versionnement et publication du projet.
 5. Structure du projet
 
 
+
+```text
 ecommerce_data_analytics/
 ├── notebooks/
 │   └── 01_data_exploration.ipynb
@@ -80,6 +82,8 @@ ecommerce_data_analytics/
 ├── .env.example
 ├── .gitignore
 └── README.md
+```
+
 
 
 Les données brutes, les identifiants de connexion et les fichiers de configuration privés ne doivent pas être publiés sur GitHub.
