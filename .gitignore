@@ -1,0 +1,33 @@
+
+# Donnees brutes et exports
+data/
+*.sql
+*.csv
+*.xlsx
+*.xls
+*.zip
+
+# Identifiants et secrets
+.env
+.env.*
+!.env.example
+config.ini
+secrets.json
+credentials.json
+
+# Python et Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.conda/
+
+# Configuration locale
+.vscode/
+
+# Fichiers temporaires
+*.log
+.DS_Store
+Thumbs.db
